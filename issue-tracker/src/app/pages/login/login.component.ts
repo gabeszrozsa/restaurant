@@ -24,7 +24,12 @@ export class LoginComponent implements OnInit {
   submit() {
     this.authService.login(new User(this.username.value, this.password.value))
       .subscribe(
-        res => this.router.navigate(['/issues']),
+        res => {
+          console.log("res:",res);
+          this.router.navigate(['/cities']);
+        },
+
+        // res => console.log(res),
         err => console.log(err))
   }
 

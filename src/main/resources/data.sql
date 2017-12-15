@@ -1,6 +1,7 @@
 INSERT INTO USERS (ID, USERNAME, EMAIL, PASSWORD, ROLE) VALUES (0, 'user', 'user@gmail.com', 'user', 'USER');
 INSERT INTO USERS (ID, USERNAME, EMAIL, PASSWORD, ROLE) VALUES (1, 'major', 'major@gmail.com', 'major', 'MAJOR');
 INSERT INTO USERS (ID, USERNAME, EMAIL, PASSWORD, ROLE) VALUES (2, 'boss', 'boss@gmail.com', 'boss', 'BOSS');
+INSERT INTO USERS (ID, USERNAME, EMAIL, PASSWORD, ROLE) VALUES (3, 'admin', 'admin@gmail.com', 'admin', 'ADMIN');
 
 INSERT INTO CITIES (ID, NAME) VALUES (0, 'Nagykanizsa');
 INSERT INTO CITIES (ID, NAME) VALUES (1, 'Budapest');

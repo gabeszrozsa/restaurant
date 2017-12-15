@@ -2,6 +2,8 @@ export class Role {
   static GUEST: String = "GUEST";
   static USER: String = "USER";
   static ADMIN: String = "ADMIN";
+  static MAJOR: String = "MAJOR";
+  static BOSS: String = "BOSS";
 }
 
 export class User {
