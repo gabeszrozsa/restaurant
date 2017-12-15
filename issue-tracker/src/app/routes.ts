@@ -22,7 +22,7 @@ export const appRoutes: Routes = [
     path: '',
     canActivateChild: [RouteGuard],
     children: [
-      {path: '', redirectTo: 'help', pathMatch: 'full'},
+      {path: '', redirectTo: 'login', pathMatch: 'full'},
       {path: 'login', component: LoginComponent, data: {roles: [Role.GUEST]}},
       {path: 'register', component: RegisterComponent, data: {roles: [Role.GUEST]}},
       {path: 'issues', component: IssueListComponent, data: {roles: [Role.USER, Role.ADMIN]}},

@@ -26,7 +26,7 @@ export class MenuComponent implements OnInit {
     [Role.USER, [...this.common]],
     [Role.BOSS, [...this.common]],
     [Role.MAJOR, [...this.common]],
-    [Role.ADMIN, [{link: '/stats', title: 'Statistics'}, {link: '/issues', title: 'Issues'}]]
+    [Role.ADMIN, [...this.common]]
   ]);
 
   menus: MenuItem[];
